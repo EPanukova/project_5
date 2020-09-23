@@ -103,8 +103,7 @@ def set_points(points, speeds):
 
 
 
-
-if __name__ == "_main_":
+if __name__ == "__main__":
     pygame.init()
     gameDisplay = pygame.display.set_mode(SCREEN_SIZE)
     pygame.display.set_caption("Screen Saver")
@@ -157,3 +156,5 @@ if __name__ == "_main_":
     pygame.display.quit()
     pygame.quit()
     exit(0)
+
+
